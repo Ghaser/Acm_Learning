@@ -1,2 +1,2 @@
 # Acm_Learning
-A rookie's acm learning experience.
+A rookie's Acm learning experience.
