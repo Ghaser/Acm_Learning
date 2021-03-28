@@ -14,11 +14,11 @@ void pushe(ll p){//维护函数，建立父子节点间的联系
 }
 void build(ll p,ll l,ll r){
     tag[p]=0;
-    if(l==r){ans[p]=a[l];return;};
+    if(l==r){ans[p]=a[l];return;};//叶子节点，进行赋值
     ll mid=(l+r)>>1;
     build(ls(p),l,mid);
     build(rs(p),mid+1,r);
-    pushe(p);
+    pushe(p);//递归之后通过pushe函数来维护父子结点的关系
 }
 
 void updateOne(ll p,ll l,ll r,ll k){
