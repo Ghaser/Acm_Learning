@@ -1,10 +1,9 @@
 #include<iostream>
+#include<string>
 using namespace std;
-
+int lg[10000];
 int main(){
-    int a=1;
-    double b=a;
-    
+    cout<<(1<<5)<<endl;
 
     return 0;
 }
